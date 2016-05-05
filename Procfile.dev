@@ -1,0 +1,5 @@
+web: nodemon --debug bin/www
+mongodb: mongod
+node-inspector: node-inspector
+build-js: grunt concurrent:javascript --watch
+build-css: grunt watch:sass
